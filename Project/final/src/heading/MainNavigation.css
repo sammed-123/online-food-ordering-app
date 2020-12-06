@@ -1,0 +1,14 @@
+.main-navigation_title{
+    color: white;
+}
+
+.main-navigation_title a{
+    text-decoration:none;
+    color:grey;
+    font-family: "Times New Roman";
+}
+.main-navigation_option{
+    right:1rem;
+    position:absolute;
+}
+  

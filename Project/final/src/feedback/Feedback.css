@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+.main_feedback_form{
+    margin-bottom:10rem;
+}
+.feedback_form{
+    padding:40px;
+    background: white;
+    z-index: 10;
+    height:1050px;
+    width:550px;
+    margin: auto;
+}
+
+#feedback-span{
+    font-family: 'Aldrich';
+    font-size:40px;
+    font-weight: 600;
+}
+
+.feedback-label{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#feedback-textarea{
+    resize:none;
+    font-size: 20px;
+    border:none;
+    background-color: #f1f1f1;
+}
+
+#feedback-textarea:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.feedback-input{
+    font-size:20px;
+    padding-left: 5px;
+    padding:9px;
+    margin-top: 4px;
+    border:none;
+    background-color: #f1f1f1;
+}
+
+.feedback-input:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.feedback-select{
+    font-size: 20px;
+    padding-left: 5px;
+    padding:9px;
+    border:none;
+    background-color: #f1f1f1;
+    width: 460px;
+}
+
+.feedback-select:focus{
+
+    outline: none;
+}
+
+#feedback-button{
+    font-size: 20px;
+    padding:9px;
+    margin-top: 30px;
+    width:460px;
+    border:none;
+    background-color: #ddd;
+}
+#feedback-button:focus{
+    outline: none;
+    background-color: rgb(209, 202, 202);
+}

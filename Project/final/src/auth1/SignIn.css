@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Trispace');
+
+.main-oldAuth_form{
+    width:100%;
+}
+
+.oldAuth_form{
+    padding:40px;
+    background: white;
+    z-index: 10;
+    height:450px;
+    width:550px;
+    position: relative;
+    top:200px;
+    margin:auto;
+}
+
+#oldAuth-span{
+    font-family: Trispace;
+    font-size: 40px;
+}
+
+#oldAuth-username,#oldAuth-password{
+    font-size:20px;
+    padding:9px;
+    margin: 4px;
+    border:none;
+    background-color: #f1f1f1;
+}
+
+#oldAuth-username:focus,#oldAuth-password:focus{
+    border-bottom: 2px solid grey;
+    outline:none;
+    background-color:#ddd;
+}
+.oldAuth-button{
+    font-size: 20px;
+    padding:9px;
+    margin-top: 30px;
+    width:460px;
+    border:none;
+    background-color: #ddd;
+}
+.oldAuth-button:focus{
+    outline: none;
+    background-color: rgb(209, 202, 202);
+}
+
+#oldAuth-small{
+    margin:120px;
+    font-size: 15px;
+}

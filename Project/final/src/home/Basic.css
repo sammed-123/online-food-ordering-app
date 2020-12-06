@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta');
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+@import url('https://fonts.googleapis.com/css?family=Allerta Stencil');
+.bg2{
+    background-image: url("home_page1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:600px;
+}
+
+.bg3{
+  background-image: url("home_page2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height:600px;
+}
+
+.bg4{
+  height:10rem;
+  width:100%;
+ 
+}
+
+#basic_h1{
+    font-size: 4rem;
+    font-family: 'lemonada',sans-serif;
+    font-weight: bolder;
+  
+    color: #FFF200;
+    padding-top:18px;
+    padding-left:40px;
+}
+
+#basic_h2{
+    font-size: 3.5rem;
+    font-family: 'lemonada',sans-serif;
+    font-weight: bolder;
+    text-shadow: .1rem .1rem .3rem #333;
+    color: #fff;
+    padding-left:40px;
+    padding-top:-40px;
+}
+
+p{
+    margin:0;
+}
+
+#basic_p{
+    font-size: 1.6rem;
+    color: black;
+    padding-top:60px;
+    padding-left:40px;
+    padding-bottom:80px;
+}
+
+.basic_link a{
+    text-decoration: none;
+    border:3px solid white;
+    font-size:1.6rem;
+    font-weight:bold;
+    padding:0.6rem;
+    cursor:pointer;
+    margin-left:40px;
+}
+
+.basic_link a:hover,
+.basic_link a:active,
+.basic_link a:active{
+    background:yellow;
+    transition: .5s;
+}
+
+.bg31
+{
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:600px;
+  font-family:sans-serif;
+}
+
+.container{
+  width:1200px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,1fr);
+  grid-gap:15px;
+  margin:0 auto;
+}
+
+.container .card{
+  position:relative;
+  width:300px;
+  height:400px;
+  margin:0 auto;
+  background:#fff;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.8);
+}
+
+.container .card .face{
+  position:absolute;
+  width:100%;
+  height:400px;
+  bottom:0;
+  left:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container .card .face.face1{
+  box-sizing:border-box;
+  padding:20px;
+}
+
+.container .card .face.face1 h2{
+  margin:0;
+  padding:0;
+}
+
+.container .card .face.face2{
+  background-image: url("home_page2.jpg");
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ transition: 1s;
+}
+
+.container .card:hover .face.face2{
+  height:60px;
+}
+
+.container .card .face.face2::before{
+  content:'';
+  position:absolute;
+  left:0;
+  top:0;
+  width:50%;
+  height:100%;
+}
+
+.container .card .face.face2 h2{
+  margin:0;
+  padding:0;
+  font-size: 1rem;
+  color:#fff;
+  transition:0.5s;
+}
+
+.home_bottom{
+  position: relative;
+  width: 100%;
+  height: 180px;
+  
+  }
+
+  .home_bottom_inf{
+    color: white;
+    font-family:Aldrich;
+    font-size: 20;
+  }
+
+  .home_bottom_head{
+    color:white;
+    font-family:Allerta;
+    font-size: 25px;
+  }
+
+  .home_bottom_ad{
+    position:absolute;
+    left:30px;
+  }
+
+  .home_bottom_em{
+    position:absolute;
+    left:25%;
+    margin-top:15px;
+  }
+
+  .home_bottom_ph{
+    position:absolute;
+    margin-top:15px;
+    left:50%;
+  }

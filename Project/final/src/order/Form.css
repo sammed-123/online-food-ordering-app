@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+
+.order_form{
+    padding:40px;
+    background: white;
+    z-index: 10;
+    height:750px;
+    width:550px;
+    margin: auto;
+}
+
+#order-span{
+    font-family: Aladin;
+    font-size: 40px;
+}
+
+#order-city,#order-state,#order-fname,#order-lname{
+    font-size: 20px;
+    padding:9px;
+    background-color: #f1f1f1;
+    border:none;
+
+}
+
+#order-city:focus,#order-state:focus,#order-fname:focus,#order-lname:focus{
+    border-bottom:2px solid grey;  
+    background-color: #ddd;
+    outline: none;
+}
+
+
+#order-phone,#order-mcourse,#order-starter,#order-email,#order-address{
+    font-size: 20px;
+    padding:9px;
+    background-color: #f1f1f1;
+    border:none;
+
+}
+
+#order-phone:focus,#order-mcourse:focus,#order-starter:focus,#order-address:focus,#order-email:focus{
+  border-bottom:2px solid grey;  
+  background-color: #ddd;
+  outline: none;
+}
+
+.order-button{
+    font-size: 20px;
+    padding:9px;
+    margin-top: 30px;
+    width:460px;
+    border:none;
+    background-color: #ddd;
+}
+.order-button:focus{
+    outline: none;
+    background-color: rgb(209, 202, 202);
+}
+
+#order-small{
+    margin:100px;
+}

@@ -1,0 +1,21 @@
+.Foodlist_bg{
+    background: linear-gradient(to top right, #000000 -4%, #ff6699 100%);   
+}
+
+.menu_name{
+    font-size:4rem;
+    text-align: center;
+    padding:6px;
+    margin-top:30px;
+    margin-left:50px;
+    width:40px;
+    font-weight:700;
+    animation:colorchange 5s infinite;
+}
+
+@keyframes colorchange{
+    0% {color:#4d0026;}
+    25% {color:#cc0066;}
+    75% {color:#ff0080;}
+    100% {color:#ff66b3;}
+}
